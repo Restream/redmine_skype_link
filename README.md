@@ -39,8 +39,6 @@ To add a Skype URI to Redmine, specify the link text and the Skype contact using
 
     "Link text":skype:<skype_contact> 
 
-For details about functionality, options, and syntax of each supported Skype URI, see [Skype URI API reference](http://msdn.microsoft.com/en-us/library/office/dn745882).
-
 The plugin enables you to add Skype URIs to initiate:
 
 * Implicit call  
@@ -67,7 +65,7 @@ Clicking a Skype link in Redmine will:
 * Open a confirmation dialog to authorize a call.
 * Initiate an audio call, a video call or a chat with the specified Skype user.
 
-For more information, see [Skype URI API reference](http://msdn.microsoft.com/en-us/library/office/dn745882).
+For more information about functionality, options, and syntax of each supported Skype URI, see [Skype URI API reference](http://msdn.microsoft.com/en-us/library/office/dn745882).
 
 ## License
 
