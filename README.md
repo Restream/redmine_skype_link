@@ -7,9 +7,11 @@ This plugin allows using Skype URIs in Redmine.
 
 Skype URIs provide a simple way of initiating Skype calls and chats directly from Redmine. For a Skype URI to work, the Skype client must be installed on the user's device. Clicking a Skype URI launches the Skype client and initiates a call to or a chat with the selected contact.
 
-## Installation
+## Compatibility
 
-*These installation instructions are based on Redmine 2.x. For instructions for Redmine 1.x, see [Redmine wiki](http://www.redmine.org/projects/redmine/wiki/Plugins).*
+This plugin version is compatible only with Redmine 2.1.x and later.
+
+## Installation
 
 1. To install the plugin
     * Download the .ZIP archive, extract files and copy the plugin directory into *#{REDMINE_ROOT}/plugins*.
