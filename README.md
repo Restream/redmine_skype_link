@@ -69,6 +69,10 @@ Clicking a Skype link in Redmine will:
 
 For more information about functionality, options, and syntax of each supported Skype URI, see [Skype URI API reference](http://msdn.microsoft.com/en-us/library/office/dn745882).
 
+## Maintainers
+
+Danil Tashkinov, [github.com/nodecarter](https://github.com/nodecarter)
+
 ## License
 
 Copyright (c) 2015 Undev
