@@ -8,7 +8,7 @@ Skype URIs provide a simple way of initiating Skype calls and chats directly fro
 
 ## Compatibility
 
-This plugin version is compatible only with Redmine 3.x and later.
+This plugin version is compatible only with Redmine 3.2.x and later.
 
 ## Installation
 
