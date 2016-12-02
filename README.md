@@ -1,7 +1,6 @@
 # Redmine Skype Link Plugin
 
-[![Build Status](https://travis-ci.org/Undev/redmine_skype_link.png)](https://travis-ci.org/Undev/redmine_skype_link)
-[![Code Climate](https://codeclimate.com/github/Undev/redmine_skype_link.png)](https://codeclimate.com/github/Undev/redmine_skype_link)
+[![Build Status](https://travis-ci.org/Restream/redmine_skype_link.svg?branch=master)](https://travis-ci.org/Restream/redmine_skype_link)
 
 This plugin allows using Skype URIs in Redmine. 
 
@@ -9,7 +8,7 @@ Skype URIs provide a simple way of initiating Skype calls and chats directly fro
 
 ## Compatibility
 
-This plugin version is compatible only with Redmine 2.1.x and later.
+This plugin version is compatible only with Redmine 3.x and later.
 
 ## Installation
 
@@ -24,14 +23,9 @@ This plugin version is compatible only with Redmine 2.1.x and later.
  
       Copy the plugin from GitHub using the following command:
 
-            git clone https://github.com/Undev/redmine_skype_link.git plugins/redmine_skype_link
+            git clone https://github.com/Restream/redmine_skype_link.git plugins/redmine_skype_link
 
-2. Update the Gemfile.lock file by running the following commands:  
-
-         rm Gemfile.lock  
-         bundle install
-
-3. Restart Redmine.
+2. Restart Redmine.
 
 Now you should be able to see the plugin in **Administration > Plugins**.
 
@@ -39,7 +33,15 @@ Now you should be able to see the plugin in **Administration > Plugins**.
 
 To add a Skype URI to Redmine, specify the link text and the Skype contact using the following syntax:
 
-    "Link text":skype:<skype_contact> 
+  Textile format:
+
+    "Link text":skype:<skype_contact>
+    "Link text":sip:<skype_contact>
+     
+  Markdown format:
+  
+    [Link text](skype:<skype_contact>)
+    [Link text](sip:<skype_contact>)
 
 The plugin enables you to add Skype URIs to initiate:
 
@@ -59,6 +61,10 @@ The plugin enables you to add Skype URIs to initiate:
   Type **"Chat":skype:skype.test.user.1?chat** into a field where you want to add a Skype URI.  
   This command will be transformed into the following link: \<a href="skype:skype.test.user.1?chat">Chat\</a>.  
   Clicking the link will start a chat with the selected contact.
+* Skype for business
+  Type **"Chat":sip:user@email.foo** into a field where you want to add a Skype URI.  
+  This command will be transformed into the following link: \<a href="sip:user@email.foo">Chat\</a>.  
+  Clicking the link will start a chat with the selected contact.
 
 Clicking a Skype link in Redmine will:
 
@@ -75,7 +81,7 @@ Danil Tashkinov, [github.com/nodecarter](https://github.com/nodecarter)
 
 ## License
 
-Copyright (c) 2015 Undev
+Copyright (c) 2016 Restream
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
